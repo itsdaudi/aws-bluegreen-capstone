@@ -8,8 +8,7 @@ An Application Load Balancer (ALB) sends production traffic to a **Blue** target
 
 ## Architecture
 
-![Architecture diagram](docs/architecture-diagram.png)
-
+![Architecture diagram](capstone-files/architecture-diagram.png)
 ```
 Internet users
       |
