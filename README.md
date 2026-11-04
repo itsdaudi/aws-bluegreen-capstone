@@ -88,10 +88,10 @@ Defaults (override with environment variables): ALB `bg-telco-dk-alb`, target gr
 ## Evidence
 
 ### ALB and listener
-![ALB active](evidence/01-alb-details-active.png)
+![ALB active](capstone-files/evidence/01-alb-details-active.png)
 *bg-telco-dk-alb is active and spans two availability zones.*
 
-![Listener weights](evidence/02-listener-blue100-green0.png)
+![Listener weights](capstone-files/evidence/02-listener-blue100-green0.png)
 *HTTP:80 default action: tg-blue-v1 at 100%, tg-green-v2 at 0%.*
 
 ### CloudWatch alarms
