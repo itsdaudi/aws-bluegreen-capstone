@@ -95,13 +95,13 @@ Defaults (override with environment variables): ALB `bg-telco-dk-alb`, target gr
 *HTTP:80 default action: tg-blue-v1 at 100%, tg-green-v2 at 0%.*
 
 ### CloudWatch alarms
-![5xx alarm in ALARM](evidence/03-alarm-5xx-in-alarm.png)
+![5xx alarm in ALARM](capstone-files/evidence/03-alarm-5xx-in-alarm.png)
 *The 5xx alarm fired after Green returned errors from the /fail route.*
 
-![Latency alarm configuration](evidence/04-alarm-latency-config-ok.png)
+![Latency alarm configuration](capstone-files/evidence/04-alarm-latency-config-ok.png)
 *Latency alarm: TargetResponseTime above 0.5 s for 2 datapoints within 2 minutes.*
 
-![Alarms back to OK](evidence/05-alarms-back-to-ok.png)
+![Alarms back to OK](capstone-files/evidence/05-alarms-back-to-ok.png)
 *Both alarms returned to OK. This was not caused by the rollback, because missing data counts as healthy.*
 | Alarm | Condition | Purpose |
 |---|---|---|
