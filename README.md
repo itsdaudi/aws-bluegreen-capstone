@@ -103,7 +103,6 @@ Defaults (override with environment variables): ALB `bg-telco-dk-alb`, target gr
 
 ![Alarms back to OK](evidence/05-alarms-back-to-ok.png)
 *Both alarms returned to OK. This was not caused by the rollback, because missing data counts as healthy.*
-
 | Alarm | Condition | Purpose |
 |---|---|---|
 | `bg-telco-dk-green-5xx-high` | More than 5 5xx responses per minute | Detects application errors on Green |
